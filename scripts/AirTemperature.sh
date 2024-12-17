@@ -1,0 +1,17 @@
+python -u run.py \
+    --seed 1728966144 \
+    --mode test \
+    --data_path ./data/UCR \
+    --data_name AirTemperature \
+    --n_vars 1 \
+    --model_name Autoencoder \
+    --data_embed local \
+    --e_layer 1 \
+    --n_heads 8 \
+    --d_model 256 \
+    --d_ff 512 \
+    --win_size 50 \
+    --step_size 50 \
+    --test_step_size 50 \
+    --percentile 99.9 \
+    --ckpt ckpt

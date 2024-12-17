@@ -1,0 +1,17 @@
+python -u run.py \
+    --seed 1728011046 \
+    --mode test \
+    --data_path ./data/PSM \
+    --data_name PSM \
+    --n_vars 25 \
+    --model_name Autoencoder \
+    --data_embed local \
+    --e_layer 2 \
+    --n_heads 8 \
+    --d_model 256 \
+    --d_ff 512 \
+    --win_size 30 \
+    --step_size 30 \
+    --test_step_size 30 \
+    --percentile 99.2 \
+    --ckpt ckpt

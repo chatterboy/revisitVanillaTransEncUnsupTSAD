@@ -1,0 +1,17 @@
+python -u run.py \
+    --seed 1727846219 \
+    --mode test \
+    --data_path ./data/SMAP \
+    --data_name SMAP \
+    --n_vars 25 \
+    --model_name Autoencoder \
+    --data_embed local \
+    --e_layer 3 \
+    --n_heads 1 \
+    --d_model 16 \
+    --d_ff 32 \
+    --win_size 50 \
+    --step_size 100 \
+    --test_step_size 50 \
+    --percentile 99.3 \
+    --ckpt ckpt

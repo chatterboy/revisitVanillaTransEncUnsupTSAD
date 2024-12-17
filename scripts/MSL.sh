@@ -1,0 +1,17 @@
+python -u run.py \
+    --seed 1727879188 \
+    --mode test \
+    --data_path ./data/MSL \
+    --data_name MSL \
+    --n_vars 55 \
+    --model_name Autoencoder \
+    --data_embed local \
+    --e_layer 1 \
+    --n_heads 1 \
+    --d_model 96 \
+    --d_ff 96 \
+    --win_size 25 \
+    --step_size 100 \
+    --test_step_size 25 \
+    --percentile 98.7 \
+    --ckpt ckpt

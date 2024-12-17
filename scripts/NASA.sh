@@ -1,0 +1,17 @@
+python -u run.py \
+    --seed 1729651586 \
+    --mode test \
+    --data_path ./data/UCR \
+    --data_name NASA \
+    --n_vars 1 \
+    --model_name Autoencoder \
+    --data_embed local \
+    --e_layer 2 \
+    --n_heads 1 \
+    --d_model 32 \
+    --d_ff 32 \
+    --win_size 100 \
+    --step_size 100 \
+    --test_step_size 100 \
+    --percentile 99.8 \
+    --ckpt ckpt
