@@ -1,6 +1,9 @@
-A deep learning model based on a vanilla Transformer encoder for time series anomaly detection
+# Reevaluate the Potential of a Vanilla Transformer Encoder for Unsupervised Time Series Anomaly Dsetection
 
-Revisit the potential of a vanilla Transformer encoder for unsupervised time series anomaly detection
+This repository provides the implementation of our paper "Reevaluate the Potential of a Vanilla Transformer Encoder for Unsupervised Time Series Anomaly Dsetection".
 
-Trained weights link
+## Trained weights on benchmark datasets
+
+You can download the trained weights here:
+
 https://drive.google.com/drive/folders/1A_ehc9jRN7CIpBWst0Q1R49v2VfVxCXX?usp=sharing
