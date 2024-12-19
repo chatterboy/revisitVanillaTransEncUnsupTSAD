@@ -1,6 +1,6 @@
-# Reevaluate the Potential of a Vanilla Transformer Encoder for Unsupervised Time Series Anomaly Dsetection
+# Reevaluate the Potential of a Vanilla Transformer Encoder for Unsupervised Time Series Anomaly Detection
 
-This repository provides the implementation of our paper "Reevaluate the Potential of a Vanilla Transformer Encoder for Unsupervised Time Series Anomaly Dsetection".
+This repository provides the implementation of our paper "Reevaluate the Potential of a Vanilla Transformer Encoder for Unsupervised Time Series Anomaly Detection".
 
 ## Trained weights on benchmark datasets
 
